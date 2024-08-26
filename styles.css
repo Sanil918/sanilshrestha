@@ -57,20 +57,13 @@ a:hover {
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-.resume_left, .resume_right {
-  padding: 1.5rem;
-}
-
+/* Left Side (Profile) */
 .resume_left {
   width: 30%;
   background: #007bff;
   color: #fff;
+  padding: 1.5rem;
   border-radius: 8px 0 0 8px;
-}
-
-.resume_right {
-  width: 68%;
-  padding-left: 2rem;
 }
 
 .resume_left img {
@@ -78,6 +71,8 @@ a:hover {
   height: 150px;
   border-radius: 50%;
   border: 3px solid #fff;
+  display: block;
+  margin: 0 auto;
 }
 
 .resume_left .resume_content {
@@ -85,6 +80,7 @@ a:hover {
 }
 
 .resume_left .resume_content ul {
+  list-style: none;
   padding-left: 0;
 }
 
@@ -111,6 +107,7 @@ a:hover {
   font-size: 0.9rem;
 }
 
+/* Skills Section */
 .resume_left .resume_skills li {
   display: flex;
   align-items: center;
@@ -141,6 +138,13 @@ a:hover {
   width: 10%;
   text-align: right;
   color: #fff;
+}
+
+/* Right Side (Details) */
+.resume_right {
+  width: 68%;
+  padding: 1.5rem;
+  padding-left: 2rem;
 }
 
 .resume_right .resume_about,
@@ -217,4 +221,3 @@ a:hover {
   background: #007bff;
   color: #fff;
 }
-
