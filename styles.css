@@ -106,7 +106,111 @@ section h2 {
     display: block;
     background-color: #007bff;
     border-radius: 5px;
-   
+    transition: width 0.3s ease;
+}
 
+/* Experience Section */
+.timeline {
+    border-left: 2px solid #ddd;
+    position: relative;
+}
 
+.timeline-item {
+    position: relative;
+    margin-bottom: 20px;
+    padding-left: 20px;
+}
 
+.timeline-item:before {
+    content: '';
+    position: absolute;
+    left: -8px;
+    width: 16px;
+    height: 16px;
+    background-color: #007bff;
+    border-radius: 50%;
+    top: 0;
+}
+
+.date {
+    font-weight: 700;
+    color: #007bff;
+    margin-bottom: 5px;
+}
+
+.details h3 {
+    font-size: 18px;
+    margin: 0;
+}
+
+.details h4 {
+    font-size: 16px;
+    color: #555;
+    margin: 5px 0;
+}
+
+/* Education Section */
+.education ul {
+    list-style: none;
+    padding: 0;
+}
+
+.education li {
+    border-bottom: 1px solid #ddd;
+    padding: 10px 0;
+    display: flex;
+    align-items: center;
+}
+
+.education .date {
+    width: 20%;
+    font-weight: 700;
+    color: #007bff;
+}
+
+.education .details {
+    width: 80%;
+}
+
+/* Contact Section */
+.contact ul {
+    list-style: none;
+    padding: 0;
+}
+
+.contact li {
+    margin-bottom: 10px;
+}
+
+/* Footer */
+footer {
+    border-top: 2px solid #ddd;
+    padding-top: 20px;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.social ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.social li {
+    margin: 0 10px;
+}
+
+.social a {
+    color: #333;
+    font-size: 20px;
+    transition: color 0.3s ease;
+}
+
+.social a:hover {
+    color: #007bff;
+}
+
+.social i {
+    margin-right: 5px;
+}
