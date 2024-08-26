@@ -1,161 +1,133 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Stylish Resume</title>
+    <title>Sanil Shrestha - Resume</title>
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500;700&family=Raleway:wght@400;700&display=swap" rel="stylesheet">
 </head>
-
 <body>
-
-    <div class="resume">
-        <div class="resume_left">
-            <div class="resume_profile">
-                <img src="your-image.jpg" alt="Profile Image">
+    <div class="container">
+        <header class="header">
+            <div class="profile-pic">
+                <img src="your-image.jpg" alt="Sanil Shrestha">
             </div>
-            <div class="resume_content">
-                <div class="resume_item resume_info">
-                    <div class="title">
-                        <p class="bold">Sanil Shrestha</p>
-                        <p class="semi-bold">Business Professional</p>
-                    </div>
-                    <ul>
-                        <li>
-                            <div class="icon"><i class="fas fa-map-marker-alt"></i></div>
-                            <div class="data">Kathmandu, Nepal</div>
-                        </li>
-                        <li>
-                            <div class="icon"><i class="fas fa-phone-alt"></i></div>
-                            <div class="data">+977-123456789</div>
-                        </li>
-                        <li>
-                            <div class="icon"><i class="fas fa-envelope"></i></div>
-                            <div class="data">email@example.com</div>
-                        </li>
-                        <li>
-                            <div class="icon"><i class="fab fa-linkedin"></i></div>
-                            <div class="data"><a href="https://linkedin.com/in/yourprofile">linkedin.com/in/yourprofile</a></div>
-                        </li>
-                    </ul>
-                </div>
-
-                <div class="resume_item resume_skills">
-                    <div class="title">
-                        <p class="bold">Skills</p>
-                    </div>
-                    <ul>
-                        <li>
-                            <div class="skill_name">Leadership</div>
-                            <div class="skill_progress"><span style="width: 90%;"></span></div>
-                            <div class="skill_per">90%</div>
-                        </li>
-                        <li>
-                            <div class="skill_name">Project Management</div>
-                            <div class="skill_progress"><span style="width: 85%;"></span></div>
-                            <div class="skill_per">85%</div>
-                        </li>
-                        <li>
-                            <div class="skill_name">Strategy</div>
-                            <div class="skill_progress"><span style="width: 80%;"></span></div>
-                            <div class="skill_per">80%</div>
-                        </li>
-                        <li>
-                            <div class="skill_name">Communication</div>
-                            <div class="skill_progress"><span style="width: 95%;"></span></div>
-                            <div class="skill_per">95%</div>
-                        </li>
-                    </ul>
-                </div>
-
-                <div class="resume_item resume_social">
-                    <div class="title">
-                        <p class="bold">Social</p>
-                    </div>
-                    <ul>
-                        <li>
-                            <div class="semi-bold">LinkedIn</div>
-                            <div class="data"><a href="https://linkedin.com/in/yourprofile">linkedin.com/in/yourprofile</a></div>
-                        </li>
-                        <li>
-                            <div class="semi-bold">Twitter</div>
-                            <div class="data"><a href="https://twitter.com/yourprofile">@yourprofile</a></div>
-                        </li>
-                    </ul>
-                </div>
+            <div class="header-content">
+                <h1>Sanil Shrestha</h1>
+                <p class="tagline">Aspiring AI Researcher | Neuroscience Enthusiast | Upcoming Entrepreneur</p>
             </div>
-        </div>
+        </header>
 
-        <div class="resume_right">
-            <div class="resume_item resume_about">
-                <div class="title">
-                    <p class="bold">Profile</p>
-                </div>
-                <p>Dynamic business professional with a solid background in leadership, project management, and strategic planning. Passionate about driving social change and innovation through effective business solutions.</p>
-            </div>
+        <main>
+            <section class="about">
+                <h2>About Me</h2>
+                <p>Driven by a passion for technology and innovation, I am an aspiring AI researcher with a keen interest in neuroscience. I have a background in software development and data science, coupled with hands-on experience in project management and leadership. My goal is to leverage my skills to make impactful contributions to society through research and entrepreneurship.</p>
+            </section>
 
-            <div class="resume_item resume_work">
-                <div class="title">
-                    <p class="bold">Work Experience</p>
+            <section class="skills">
+                <h2>Skills</h2>
+                <div class="skill-bars">
+                    <div class="skill">
+                        <p>Python</p>
+                        <div class="progress-bar"><span style="width: 85%;"></span></div>
+                    </div>
+                    <div class="skill">
+                        <p>Java</p>
+                        <div class="progress-bar"><span style="width: 75%;"></span></div>
+                    </div>
+                    <div class="skill">
+                        <p>Machine Learning</p>
+                        <div class="progress-bar"><span style="width: 70%;"></span></div>
+                    </div>
+                    <div class="skill">
+                        <p>Data Science</p>
+                        <div class="progress-bar"><span style="width: 60%;"></span></div>
+                    </div>
+                    <div class="skill">
+                        <p>C Programming</p>
+                        <div class="progress-bar"><span style="width: 90%;"></span></div>
+                    </div>
                 </div>
+            </section>
+
+            <section class="experience">
+                <h2>Work Experience</h2>
+                <div class="timeline">
+                    <div class="timeline-item">
+                        <div class="date">2018 - 2019</div>
+                        <div class="details">
+                            <h3>Junior Developer</h3>
+                            <h4>DOTMARK SOLUTIONS P.LTD</h4>
+                            <p>Involved in a hospital management system project working with PHP, MySQL, .NET, Node.js, and Git. Collaborated in a team of 7-8 members, maintaining strong communication and project workflow.</p>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="date">2017 - 2018</div>
+                        <div class="details">
+                            <h3>Intern Developer</h3>
+                            <h4>MIC Nepal</h4>
+                            <p>Learned CentOS OS, software testing, bug fixing, and client communication with Japanese clients via a translator.</p>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="date">2016 - 2017</div>
+                        <div class="details">
+                            <h3>Assistant Admission Officer</h3>
+                            <h4>Sharda University Regional Office</h4>
+                            <p>Managed data entry, data visualization, sales, and educational consulting. Gained experience in telemarketing and marketing strategies.</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="education">
+                <h2>Education</h2>
                 <ul>
-                    <li>
-                        <div class="date">2024 - Present</div>
-                        <div class="info">
-                            <p class="semi-bold">Director - G.K.S. Supplier Private Limited</p>
-                            <p>Overseeing business operations, developing strategic plans, and leading the company's transition into new markets.</p>
-                        </div>
-                    </li>
-                    <li>
-                        <div class="date">2021 - 2024</div>
-                        <div class="info">
-                            <p class="semi-bold">Operations Manager - Prism Color Scanning & Press Support Pvt. Ltd.</p>
-                            <p>Managed day-to-day operations, implemented process improvements, and enhanced customer relations.</p>
-                        </div>
-                    </li>
-                </ul>
-            </div>
-
-            <div class="resume_item resume_education">
-                <div class="title">
-                    <p class="bold">Education</p>
-                </div>
-                <ul>
-                    <li>
-                        <div class="date">2022 - 2024</div>
-                        <div class="info">
-                            <p class="semi-bold">MBA in Global Leadership Management</p>
-                            <p>Tribhuvan University, Kathmandu, Nepal</p>
-                        </div>
-                    </li>
                     <li>
                         <div class="date">2014 - 2018</div>
-                        <div class="info">
-                            <p class="semi-bold">B.Tech in Computer Science & Engineering</p>
-                            <p>Sharda University, Greater Noida, India</p>
+                        <div class="details">
+                            <h3>B.Tech in Computer Science & Engineering</h3>
+                            <h4>Sharda University, Greater Noida, India</h4>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="date">2000 - 2012</div>
+                        <div class="details">
+                            <h3>SLC & A-Levels</h3>
+                            <h4>Graded English Medium School, Lalitpur, Nepal</h4>
                         </div>
                     </li>
                 </ul>
-            </div>
+            </section>
 
-            <div class="resume_item resume_hobby">
-                <div class="title">
-                    <p class="bold">Hobbies</p>
-                </div>
+            <section class="contact">
+                <h2>Contact Information</h2>
                 <ul>
-                    <li><i class="fas fa-hiking"></i></li>
-                    <li><i class="fas fa-book"></i></li>
-                    <li><i class="fas fa-music"></i></li>
-                    <li><i class="fas fa-paint-brush"></i></li>
+                    <li><strong>Location:</strong> <a href="https://goo.gl/maps/yourlink" target="_blank">Kuleshwor, Kathmandu</a></li>
+                    <li><strong>Phone:</strong> <a href="tel:+9779843695619">+977-9843695619</a></li>
+                    <li><strong>Email:</strong> <a href="mailto:sanil.4281222@gmail.com">sanil.4281222@gmail.com</a></li>
+                    <li><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/sanil-s-8376478b" target="_blank">linkedin.com/in/sanil-s-8376478b</a></li>
                 </ul>
-            </div>
-        </div>
+            </section>
+        </main>
+
+        <footer>
+            <section class="social">
+                <h2>Find Me On</h2>
+                <ul>
+                    <li><a href="https://www.facebook.com/sanil918/" target="_blank"><i class="fab fa-facebook-f"></i></a></li>
+                    <li><a href="https://www.twitter.com/Sanil918" target="_blank"><i class="fab fa-twitter"></i></a></li>
+                    <li><a href="https://www.instagram.com/sanil918" target="_blank"><i class="fab fa-instagram"></i></a></li>
+                    <li><a href="https://www.linkedin.com/in/sanil-s-8376478b" target="_blank"><i class="fab fa-linkedin-in"></i></a></li>
+                </ul>
+            </section>
+        </footer>
     </div>
 
+    <script src="https://kit.fontawesome.com/b99e675b6e.js"></script>
 </body>
-
 </html>
+
 
 
