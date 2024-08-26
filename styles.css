@@ -4,97 +4,116 @@
 /* General Styles */
 body {
   font-family: 'Roboto', sans-serif;
-  background-color: #f4f4f4;
+  background: #f0f4f8;
   color: #333;
   margin: 0;
   padding: 0;
-}
-
-.resume {
   display: flex;
-  max-width: 1000px;
-  margin: 20px auto;
-  padding: 20px;
-  background: #fff;
-  border-radius: 10px;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  width: 90%;
+  max-width: 1200px;
+  background: #ffffff;
+  border-radius: 15px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
 }
 
-.resume_left {
-  width: 30%;
-  background: #2c3e50;
-  color: #fff;
-  padding: 20px;
-  border-radius: 10px 0 0 10px;
+header {
+  background: linear-gradient(135deg, #3498db, #2ecc71);
+  color: white;
+  text-align: center;
+  padding: 30px 20px;
 }
 
-.resume_profile img {
-  width: 100%;
+.profile img {
+  width: 150px;
+  height: 150px;
   border-radius: 50%;
+  border: 5px solid white;
+  margin-top: -75px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
-.resume_content {
-  padding: 20px;
+.profile h1 {
+  font-size: 2.5em;
+  margin: 10px 0 5px;
 }
 
-.resume_item {
-  margin-bottom: 20px;
-}
-
-.title {
-  font-size: 1.5em;
-  margin-bottom: 10px;
-  font-weight: 700;
-  color: #3498db;
-}
-
-ul {
-  padding: 0;
-  list-style: none;
-}
-
-ul li {
-  margin-bottom: 10px;
-}
-
-ul li a {
-  color: #3498db;
-  text-decoration: none;
-}
-
-ul li a:hover {
-  text-decoration: underline;
-}
-
-.resume_right {
-  width: 70%;
-  padding: 20px;
-}
-
-.experience, .education {
-  margin-bottom: 20px;
-}
-
-.experience h3, .education h3 {
+.profile p {
   font-size: 1.2em;
-  margin: 0;
+}
+
+main {
+  padding: 20px;
+}
+
+.section-title {
+  font-size: 1.8em;
   color: #3498db;
+  margin-bottom: 20px;
+  border-bottom: 2px solid #3498db;
+  display: inline-block;
+  padding-bottom: 5px;
 }
 
-.contact_info, .social_links {
-  margin-top: 20px;
+.skills, .experience, .education, .contact, .social {
+  margin-bottom: 30px;
 }
 
-.contact_info p, .social_links a {
+.skill-list {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.skill-item {
+  background: #3498db;
+  color: white;
+  padding: 10px 15px;
+  margin: 5px;
+  border-radius: 20px;
   font-size: 1em;
+  text-align: center;
+  flex: 1 1 150px;
+  transition: background 0.3s;
 }
 
-.social_links a {
-  margin-right: 10px;
+.skill-item:hover {
+  background: #2980b9;
+}
+
+.job, .edu {
+  margin-bottom: 20px;
+}
+
+.job h3, .edu h3 {
+  font-size: 1.4em;
+  color: #3498db;
+  margin-bottom: 5px;
+}
+
+.contact ul {
+  list-style: none;
+  padding: 0;
+}
+
+.contact ul li {
+  font-size: 1.2em;
+  margin-bottom: 10px;
+}
+
+.social-links a {
+  margin-right: 15px;
   color: #3498db;
   text-decoration: none;
+  font-size: 1.2em;
+  transition: color 0.3s;
 }
 
-.social_links a:hover {
-  text-decoration: underline;
+.social-links a:hover {
+  color: #2980b9;
 }
