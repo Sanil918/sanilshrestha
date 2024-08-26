@@ -7,22 +7,14 @@
   list-style: none;
   font-family: "Montserrat", sans-serif;
 }
-a:link {
+
+a:link, a:visited {
   color: white;
   background-color: transparent;
   text-decoration: none;
 }
-a:visited {
-  color: white;
-  background-color: transparent;
-  text-decoration: none;
-}
-a:hover {
-  color: white;
-  background-color: transparent;
-  text-decoration: underline;
-}
-a:active {
+
+a:hover, a:active {
   color: white;
   background-color: transparent;
   text-decoration: underline;
@@ -65,7 +57,7 @@ body {
 
 .resume .resume_left .resume_profile img {
   width: 100%;
-  height:115%;
+  height: 115%;
 }
 
 .resume .resume_left .resume_content {
@@ -252,3 +244,4 @@ body {
 .resume .resume_right .resume_hobby ul li:last-child:before {
   display: none;
 }
+
